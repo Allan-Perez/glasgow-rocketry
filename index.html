@@ -9,6 +9,10 @@ description: Track and optimize your sales team in real time
 		<!-- <div> -->
 			<!-- <img src="{{ site.baseurl }}/images/dashboard.png" alt="Screenshot" class="screenshot editable" /> -->
 		<!-- </div> -->
+    <div class="timer-wrapper">
+      <div id="timer">
+      </div>
+    </div>
 	</div>
 </section>
 
@@ -66,3 +70,49 @@ description: Track and optimize your sales team in real time
 		<div class="button alt"><a href="#">Get Started Free</a></div>
 	</section>
 </div>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+var days_el  = document.createElement("div");
+days_el.className = "timer-element timer-days";
+var hours_el = document.createElement("div");
+hours_el.className = "timer-element timer-hours";
+var mins_el  = document.createElement("div");
+mins_el.className = "timer-element timer-mins";
+var secs_el = document.createElement("div");
+secs_el.className = "timer-element timer-secs";
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  days_el.innerHTML  = days + "d ";
+  hours_el.innerHTML = hours + "h ";
+  mins_el.innerHTML  = minutes + "m ";
+  secs_el.innerHTML  = seconds + "s ";
+
+  // Display the result in the element with id="demo"
+  //document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+  //+ minutes + "m " + seconds + "s ";
+  document.getElementById("timer").appendChild(days_el);
+  document.getElementById("timer").appendChild(hours_el);
+  document.getElementById("timer").appendChild(mins_el);
+  document.getElementById("timer").appendChild(secs_el);
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "Launch!";
+  }
+}, 1000);
+</script>
