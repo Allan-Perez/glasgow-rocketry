@@ -6,9 +6,7 @@ ctaButton: Sponsor Us
 ctaLink: /contact/
 ---
 <ul class="staff">
-  <h2> {{ site.sponsors_members }} </h2>
 	{% for sponsor in site.sponsors_members %}
-    <h1> HEY </h1>
 		<li>
 			<div class="square-image"><img src="{% include relative-src.html src=sponsor.image_path %}" alt="{{ sponsor.name }}"/></div>
 			<div class="name"><a target="_blank" href="https://twitter.com/{{ sponsor.twitter }}">{{ sponsor.name }}</a></div>

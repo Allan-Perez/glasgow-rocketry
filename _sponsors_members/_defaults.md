@@ -1,6 +1,6 @@
 ---
 name:
-date:
+join_date:
 image_path:
 website:
 blurb:
