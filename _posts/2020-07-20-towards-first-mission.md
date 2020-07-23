@@ -2,8 +2,7 @@
 date: 2020-05-22
 title: Towards our first mission
 categories:
-  - missions
-  - technology
+  - launches
 author_staff_member: anastasia
 ---
 
