@@ -1,14 +1,18 @@
 ---
 title: Sponsors
-description: We've built an amazing team of developers, marketers, designers and sales people.
+description: Discover the organizations that believe in our mission and is actively supporting us.
+ctaText: Do you want **support** our team?
+ctaButton: Sponsor Us
+ctaLink: /contact/
 ---
-<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
 <ul class="staff">
-	{% for person in site.staff_members %}
+  <h2> {{ site.sponsors_members }} </h2>
+	{% for sponsor in site.sponsors_members %}
+    <h1> HEY </h1>
 		<li>
-			<div class="square-image"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
-			<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name }}</a></div>
-			<div class="position">{{ person.position }}</div>
+			<div class="square-image"><img src="{% include relative-src.html src=sponsor.image_path %}" alt="{{ sponsor.name }}"/></div>
+			<div class="name"><a target="_blank" href="https://twitter.com/{{ sponsor.twitter }}">{{ sponsor.name }}</a></div>
+			<div class="position">{{ sponsor.position }}</div>
 		</li>
 	{% endfor %}
 </ul>
