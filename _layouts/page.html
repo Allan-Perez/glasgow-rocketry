@@ -15,4 +15,10 @@ layout: default
 			{{ content }}
 		</div>
 	</section>
+  {% if page.ctaLink %}
+    <section class="bottom-cta">
+      <h2 class="editable">{{ page.ctaText | markdownify }}</h2>
+      <div class="button alt"><a href="{{ page.ctaLink }}">{{ page.ctaButton }}</a></div>
+    </section>
+  {% endif %}
 </div>
