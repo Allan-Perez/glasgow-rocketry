@@ -6,8 +6,8 @@
   link: /updates/
   new_window: false
   highlight: false
-- name: About
-  link: /about/
+- name: Team
+  link: /team/
   new_window: false
   highlight: false
 - name: Contact
