@@ -1,3 +1,7 @@
+.hidden{
+  display: none;
+  visibility: hidden;
+}
 .container, .text-container {
 	margin: 0 auto;
 	position: relative;
@@ -9,7 +13,7 @@
 }
 
 .container {
-	max-width: 1140px;
+	max-width: 900px;
 
 	&.max-container {
 		max-width: 100%;
@@ -171,4 +175,8 @@ blockquote:before {
 		}
 	}
 
+}
+.round-corners{
+  border-radius: 11px;
+  box-shadow: 0 7px 12px 0 rgba(160,161,188,.8);
 }

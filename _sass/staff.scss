@@ -36,3 +36,13 @@
 		color: #666;
 	}
 }
+.team-member{
+  opacity:0.75;
+  border: 2px solid $brand-color;
+  transition: border 0.4s, opacity 0.4s;
+  &:hover{
+    opacity:1;
+    cursor:pointer;
+    border: 2px solid $secondary-brand-color;
+  }
+}

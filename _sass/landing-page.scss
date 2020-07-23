@@ -1,13 +1,20 @@
 .bottom-cta {
-	background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%);
-	color: #fff;
+	//background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%);
+  background: $secondary-brand-color;
+	color: #000;
 	text-align: center;
 	margin: 0;
-	padding: 100px 0;
+	padding: 100px 20px;
 
 	h2 {
-		margin-bottom: 50px;
+		margin-bottom: 20px;
 	}
+  h2 p{
+    color: #000;
+  }
+  .button.alt a{
+    background: #efefef;
+  }
 }
 
 .testimonial {
