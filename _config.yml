@@ -9,7 +9,7 @@ google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /images/gurocketry_logo_black.png
+logo: /assets/img/gurocketry_logo_black.png
 description: Glasgow University's rocketry society.
 author:
   name:
@@ -30,6 +30,7 @@ collections:
     _hide_content: true
   sponsors_members:
     _hide_content: true
+defaultHeaderImg: /assets/img/hero_section_back.png
 
 paginate: 10
 paginate_path: "/updates/:num/"

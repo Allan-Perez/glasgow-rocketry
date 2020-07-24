@@ -6,6 +6,10 @@
   link: /updates/
   new_window: false
   highlight: false
+- name: Outreach
+  link: /outreach/
+  new_window: false
+  highlight: false
 - name: Team
   link: /team/
   new_window: false
