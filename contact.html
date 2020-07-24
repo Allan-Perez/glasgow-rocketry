@@ -5,20 +5,28 @@ description: We'd love to help you improve your sales.
 ---
 <div class="contact-box">
 	<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-		<input type="hidden" name="_to" value="support@example.com" />
+		<input type="hidden" name="_to" value="allan.steven.pm@gmail.com" />
 		<input type="text" name="_gotcha" style="display: none;">
 
 		<label for="name">Full Name</label>
-		<input type="text" name="name" id="name" placeholder="Enter your name..." />
+		<input type="text" name="name" id="name" placeholder="Wernher Von Braun" required />
 
 		<label for="email">Email Address</label>
-		<input type="email" name="email" id="email" placeholder="Enter your email..." required />
+		<input type="email" name="email" id="email" placeholder="vonbraun@nasa.gov" required />
 
 		<label for="subject">Subject</label>
-		<input type="text" name="subject" id="subject" placeholder="Enter your subject..."></input>
+    <select id="subject" name="subject" required>
+      <option value="sponsor">Sponsor Us</option>
+      <option value="join">Join Us</option>
+      <option value="media">Media</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="brief">Brief</label>
+		<input type="text" name="subject" id="subject" placeholder="Briefly describe your reason to contact..." required />
 
 		<label for="message">Message</label>
-		<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
+		<textarea name="message" id="message" placeholder="Enter your details..."></textarea>
 
 		<input type="submit" value="Send Message" />
 	</form>
