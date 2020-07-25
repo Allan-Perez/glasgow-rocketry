@@ -198,3 +198,8 @@ blockquote:before {
   border-radius: 11px;
   box-shadow: 0 7px 12px 0 rgba(160,161,188,.8);
 }
+
+p {
+  max-width: 900px;
+  margin: 0 auto;
+}
