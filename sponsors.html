@@ -5,12 +5,14 @@ ctaText: Do you want **support** our team?
 ctaButton: Sponsor Us
 ctaLink: /contact/
 ---
-<ul class="staff">
+<ul class="sponsors">
 	{% for sponsor in site.sponsors_members %}
 		<li>
-			<div class="square-image"><img src="{% include relative-src.html src=sponsor.image_path %}" alt="{{ sponsor.name }}"/></div>
-			<div class="name"><a target="_blank" href="{{ sponsor.website}}">{{ sponsor.name }}</a></div>
-			<div class="position">{{ sponsor.position }}</div>
+			<div class="logo">
+        <a target="_blank" href="{{ sponsor.website}}"> 
+          <img src="{% include relative-src.html src=sponsor.image_path %}" alt="{{ sponsor.name }}"/>
+        </a>
+      </div>
 		</li>
 	{% endfor %}
 </ul>

@@ -31,5 +31,14 @@ layout: default
       <h2 class="editable">{{ page.ctaText | markdownify }}</h2>
       <div class="button alt"><a href="{{ page.ctaLink }}">{{ page.ctaButton }}</a></div>
     </section>
+  {% elsif page.ctaActionPopup %}
+    <section class="bottom-cta">
+      <h2 class="editable">{{ page.ctaText | markdownify }}</h2>
+      <div class="button alt"><a class="cta-popup-action">{{ page.ctaButton }}</a></div>
+    </section>
+    <script>
+      console.log({{ page.ctaActionPopup | jsonify }});
+    </script>
+    <script src="/assets/js/ctaActionPopup.js"></script>
   {% endif %}
 </div>

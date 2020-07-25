@@ -59,7 +59,8 @@
   background-color: #666666;
   background-position: center center;
   background-repeat: no-repeat;
-  min-height: 30vh
+  min-height: 30vh;
+  padding: 40px 15px;
 }
 
 @media #{$desktop} {

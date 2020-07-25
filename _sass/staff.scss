@@ -36,6 +36,38 @@
 		color: #666;
 	}
 }
+
+.sponsors{
+	padding: 0;
+	list-style: none;
+	@extend %flexbox;
+	@include flex-flow(wrap);
+	text-align: center;
+	li {
+		padding: 20px 10px;
+		box-sizing: border-box;
+		width: 100%;
+    display:flex;
+    justify-content: center; /* Horizontally centers single-line elements */
+    text-align:center; /* Horizontally centers text within line-wrapped elements */
+    align-items: center; /* vertical */
+
+		@media #{$tablet} {
+			@include flex(1, 1, 45%);
+		}
+
+		@media #{$desktop} {
+			@include flex(1, 1, 29%);
+		}
+
+	}
+
+	.logo{
+		width: 200px;
+		height: 200px;
+  }
+}
+
 .popup-element{
   opacity:0.75;
   border: 2px solid $brand-color;

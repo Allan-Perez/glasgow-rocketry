@@ -4,7 +4,13 @@ var popupData = (name, photoUrl, description) => {
     title: name,
     text: description,
     imageUrl: photoUrl,
-    imageAlt: name
+    imageAlt: name,
+    showClass:{
+      popup: 'animate__animated animate__zoomIn'
+    },
+    hideClass:{
+      popup: 'animate__animated animate__zoomOut'
+    }
   });
 }
 var getHiddenFields = (collection) => {
@@ -19,6 +25,5 @@ var getHiddenFields = (collection) => {
 
 [...teamElements].forEach( (teamEl) => {
   var teamElFields = getHiddenFields(teamEl.children);
-  console.log(teamElFields);
   teamEl.addEventListener('click', ()=>{popupData(...teamElFields);});
 });

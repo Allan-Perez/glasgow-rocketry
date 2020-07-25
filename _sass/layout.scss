@@ -140,6 +140,24 @@ blockquote:before {
 		width: 300px;
 	}
 }
+.logo{
+	width: 150px;
+	height: 150px;
+	margin: 25px  auto;
+	position: relative;
+  display: table-cell;
+
+	img {
+    display: block;
+    margin: auto;
+    filter: grayscale(100%);
+    transition: 0.2s filter linear, 0.2s -webkit-filter linear;
+    &:hover{
+      filter: grayscale(0%);
+    }
+	}
+  
+}
 
 .page {
 	margin-bottom: 0;
