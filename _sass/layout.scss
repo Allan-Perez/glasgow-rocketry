@@ -21,6 +21,19 @@
 	}
 }
 
+@media #{$mid-point} {
+  header {
+    background:transparent !important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .page-heading{
+    padding: 120px 20px 60px 20px !important;
+    min-height: 20vh!important;
+  }
+}
+
 header {
 	color: #fff;
 	padding: 20px 0;

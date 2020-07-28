@@ -2,7 +2,6 @@
 layout: none
 ---
 var launch = {{ site.data.launch | jsonify }}[0];
-console.log(launch)
 // Set elements that will be used 
 var launch_title = document.createElement("h1");
 var launch_cta   = document.createElement("div");

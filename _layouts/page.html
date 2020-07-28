@@ -10,15 +10,15 @@ layout: default
     <h2>{{ page.heading }}</h2>
     <p class="subtext">{{ page.description }}</p>
   </div>
-{% elsif page.title and page.layout != 'archive'%}
+{% elsif page.title %}
   {% if page.headingImgUrl %}
     <div class="page-heading hero" style="background-image:  url({{ page.headingImgUrl }})">
   {% else %}
     <div class="page-heading hero" style="background-image:  url({{ site.defaultHeaderImg }})">
   {% endif %}
-    <h2>{{ page.title}}</h2>
-    <p class="subtext">{{ page.description }}</p>
-  </div>
+      <h2>{{ page.title}}</h2>
+      <p class="subtext">{{ page.description }}</p>
+    </div>
 {% endif %}
 <div class="content">
 	<section class="page">
@@ -36,9 +36,6 @@ layout: default
       <h2 class="editable">{{ page.ctaText | markdownify }}</h2>
       <div class="button alt"><a class="cta-popup-action">{{ page.ctaButton }}</a></div>
     </section>
-    <script>
-      console.log({{ page.ctaActionPopup | jsonify }});
-    </script>
     <script src="/assets/js/ctaActionPopup.js"></script>
   {% endif %}
 </div>

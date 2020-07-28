@@ -19,7 +19,6 @@ var getQuestions = (jsnArr) => {
 };
 
 var alldata = {{ site.data.popups.jointeam | jsonify }};
-console.log(alldata);
 var ctaQuestionsSequence = lookForInJsonArr(alldata, "question");
 var ctaConfirmations = lookForInJsonArr(alldata, "confirmation");
 
@@ -52,7 +51,6 @@ var getHiddenFields = (collection) => {
 }
 
 [...ctaPopupActionEl].forEach( (ctaAction) => {
-  console.log(ctaAction);
   //var questions = getHiddenFields(teamEl.children);
   ctaAction.addEventListener('click', ()=>{ctaPopupAction(ctaQuestionsSequence, ctaConfirmations[0]);});
 });
