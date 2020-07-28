@@ -1,0 +1,14 @@
+- type: question
+  title: Enter your name
+  text: We're glad you've decided to join us in this endeavour. Please, leave your name to continue.
+- type: question
+  title: Enter your email
+  input: email
+- type: question
+  title: How will you help?
+  text: Please briefly explain us how do you want to help our team
+  input: text
+- type: confirmation
+  title: Got it mate!
+  text: Thank you very much for deciding to help us. A member of our team will soon contact you.
+  confirmButtonText: Cool!

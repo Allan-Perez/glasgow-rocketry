@@ -18,9 +18,19 @@ var getQuestions = (jsnArr) => {
   return questionsArr;
 };
 
-var alldata = {{ site.data.popups.jointeam | jsonify }};
-var ctaQuestionsSequence = lookForInJsonArr(alldata, "question");
-var ctaConfirmations = lookForInJsonArr(alldata, "confirmation");
+var ctaPopupMethod = document.getElementsByClassName('cta-popup-method')[0].innerText;
+var popupMethodsAll = {{ site.data.popups | jsonify }};
+var popupMethods   = Object.keys(popupMethodsAll);
+var idxPopupMethod = popupMethods.indexOf(ctaPopupMethod);
+if(idxPopupMethod < 0){
+  idxPopupMethod = 2;
+  ctaPopupMethod = popupMethods[idxPopupMethod];
+}
+var ctaPopupMethodFields = popupMethodsAll[ctaPopupMethod];
+
+
+var ctaQuestionsSequence = lookForInJsonArr(ctaPopupMethodFields, "question");
+var ctaConfirmations = lookForInJsonArr(ctaPopupMethodFields, "confirmation");
 
 var ctaPopupAction= (questions, confirmation) => {
   Swal.mixin({
@@ -36,7 +46,22 @@ var ctaPopupAction= (questions, confirmation) => {
     }
   }).queue(questions).then((res) => {
     if(res.value) {
+      console.log(res.value);
+      var name    = res.value[0];
+      var email   = res.value[1];
+      var details = res.value.slice(2).join(" -- ");
+      let data = {
+        "name": name,
+        "email": email,
+        "subject": "Submission " + ctaPopupMethod,
+        "body": details
+      };
+      console.log(data);
+      Pageclip.send("FH07hPua0Q7nDwgz6IEIxcH6vrqihqoA", ctaPopupMethod, data, (err, res) => {
+        console.log("saved?", !!err, "; response:", err || res);
+      });
       Swal.fire(confirmation);
+
     }
   });
 }

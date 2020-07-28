@@ -8,6 +8,24 @@
 	transition: .2s ease-in-out;
 }
 
+.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step, .swal2-progress-steps .swal2-progress-step, .swal2-progress-steps .swal2-progress-step-line{
+  background: transparentize($secondary-brand-color, 0)!important;
+  color: #595959;
+}
+.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step ~ .swal2-progress-step-line{
+  background: transparentize($secondary-brand-color, .6)!important;
+}
+
+.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step ~ .swal2-progress-step{
+  background: transparentize($secondary-brand-color, .6)!important;
+  color: #595959!important;
+}
+
+.swal2-styled.swal2-confirm{
+  background-color: $secondary-brand-color!important;
+  color: #595959!important;
+}
+
 .button a:hover, input[type=submit]:hover {
 	background: $brand-color;
   color: #fff;

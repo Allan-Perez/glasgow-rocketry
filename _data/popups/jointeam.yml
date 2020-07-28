@@ -1,9 +1,9 @@
 - type: question
-  title: Enter your email
-  text: We're glad you've decided to join us in this endeavour. Please, leave your email to continue.
-  input: email
-- type: question
   title: Enter your name
+  text: We're glad you've decided to join us in this endeavour. Please, leave your name to continue.
+- type: question
+  title: Enter your email
+  input: email
 - type: question
   title: How will you help?
   text: Please briefly explain us how do you want to help our team

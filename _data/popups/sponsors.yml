@@ -1,0 +1,18 @@
+- type: question
+  title: Enter your name
+  text: We're very glad that you're deciding to sponsor us. Please, leave your name to continue.
+- type: question
+  title: Enter your email
+  input: email
+- type: question
+  title: Company Name
+  text: What is the name of your company?
+  input: text
+- type: question
+  title: How will you sponsor us?
+  text: Please briefly explain us how do you want to sponsor our team
+  input: text
+- type: confirmation
+  title: Thank you!
+  text: Thank you very much for deciding to sponsor us. Our sponsorships team will soon contact you.
+  confirmButtonText: Cool!
