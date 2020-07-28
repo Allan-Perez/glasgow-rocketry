@@ -26,17 +26,4 @@ layout: default
 			{{ content }}
 		</div>
 	</section>
-  {% if page.ctaLink %}
-    <section class="bottom-cta">
-      <h2 class="editable">{{ page.ctaText | markdownify }}</h2>
-      <div class="button alt"><a href="{{ page.ctaLink }}">{{ page.ctaButton }}</a></div>
-    </section>
-  {% elsif page.ctaActionPopup %}
-    <p class="hidden cta-popup-method">{{ page.ctaActionPopup }}</p>
-    <section class="bottom-cta">
-      <h2 class="editable">{{ page.ctaText | markdownify }}</h2>
-      <div class="button alt"><a class="cta-popup-action">{{ page.ctaButton }}</a></div>
-    </section>
-    <script src="/assets/js/ctaActionPopup.js"></script>
-  {% endif %}
 </div>
