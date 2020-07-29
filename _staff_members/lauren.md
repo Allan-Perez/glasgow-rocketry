@@ -1,7 +1,7 @@
 ---
 name: Lauren Galloway
 position: Ground Infrastructure
-image_path: https://source.unsplash.com/collection/139386/605x605?a=.png
+image_path: /assets/img/members/lauren.png
 twitter: CloudCannonApp
 blurb: |
   The Ground Infrastructure Team are developing a launch railsystem that enables 
