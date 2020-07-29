@@ -5,6 +5,7 @@ var popupData = (name, photoUrl, description) => {
     text: description,
     imageUrl: photoUrl,
     imageAlt: name,
+    imageWidth: 400,
     showClass:{
       popup: 'animate__animated animate__zoomIn'
     },
