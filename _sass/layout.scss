@@ -21,6 +21,11 @@
 	}
 }
 
+#cookie-notice{
+  background: $secondary-brand-color; 
+  color: rgba(0,0,0,0.9);
+}
+
 @media #{$mid-point} {
   header {
     background:transparent !important;
