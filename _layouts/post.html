@@ -6,7 +6,7 @@ layout: page
 
 	<p class="editor-link"><a href="cloudcannon:collections/{{ page.path }}" class="btn"><strong>&#9998;</strong> Edit Post</a></p>
 	<div class="post-content">
-		{{ content }}
+		{{ content | markdownify | newline_to_br}}
 
 		<div class="author">
 			{% assign author_id = page.author_staff_member | prepend: "/staff_members/" | append: "/" %}

@@ -17,15 +17,17 @@ ctaActionPopup: sponsors
       <div id="timer">
       </div>
     </div>
+    <a href="#about">
     <div id="scrolldown">
       <svg width="30px" height="20px">
         <path stroke="#ffffff" stroke-width="2px" d="M2.000,5.000 L15.000,18.000 L28.000,5.000 " style="fill: none;stroke: #fff;"></path>
       </svg>
     </div>
+    </a>
 	</div>
 </section>
 
-<div class="content">
+<div class="content" id="about">
 	<section>
 		<div class="container flex">
 			<div class="text editable">
@@ -76,3 +78,13 @@ ctaActionPopup: sponsors
 </div>
 <script src='/assets/js/timer.js'></script>
 <link rel='stylesheet' type='text/css' href='/assets/css/timer.css'/>
+<script> 
+  $(document).on("click","a",function(e){
+        e.preventDefault();
+        var id = $(this).attr("href"),
+            topSpace = 30;
+        $('html, body').animate({
+          scrollTop: $(id).offset().top - topSpace
+        }, 800);
+    });
+</script>
