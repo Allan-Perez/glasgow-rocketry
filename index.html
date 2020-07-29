@@ -79,12 +79,13 @@ ctaActionPopup: sponsors
 <script src='/assets/js/timer.js'></script>
 <link rel='stylesheet' type='text/css' href='/assets/css/timer.css'/>
 <script> 
+  let $ = jQuery
   $(document).on("click","a",function(e){
         e.preventDefault();
         var id = $(this).attr("href"),
-            topSpace = 30;
+            topSpace = 0;
         $('html, body').animate({
           scrollTop: $(id).offset().top - topSpace
-        }, 800);
+        }, 600);
     });
 </script>
