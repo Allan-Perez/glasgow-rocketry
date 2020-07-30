@@ -1,7 +1,7 @@
 ---
 name: Likhit Macharla
 position: Propulsion
-image_path: https://source.unsplash.com/collection/139386/601x601?a=.png
+image_path: /assets/img/members/likhit.jpg
 twitter: CloudCannonApp
-blurb: Anastasia is a second year Biology student with a passion for space, who intends on studying astrobiology in the future.
+blurb: My name is Likhit Macharla and I’m a 4th year aeronautical engineering student. I first got into rocket engines when I studied abroad at the University of Texas at Austin.  Joining a rocketry team there, I was fortunate enough to be involved withtheir propulsion team and also build my own high-powered rocket.
 ---
