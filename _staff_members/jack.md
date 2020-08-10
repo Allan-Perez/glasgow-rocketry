@@ -1,7 +1,7 @@
 ---
 name: Jack Tufft
 position: Founder and President
-image_path: https://source.unsplash.com/collection/139386/600x600?a=.png
+image_path: /assets/img/members/jack.jpg
 twitter: CloudCannonApp
 blurb: Lorem ipsum.
 ---
