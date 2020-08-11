@@ -46,11 +46,10 @@ var ctaPopupAction= (questions, confirmation) => {
     }
   }).queue(questions).then((res) => {
     if(res.value) {
-      console.log(res.value);
       var name    = res.value[0];
       var email   = res.value[1];
       var details = res.value.slice(2).join(" -- ");
-      let data = {
+      var data = {
         "name": name,
         "email": email,
         "subject": "Submission " + ctaPopupMethod,
