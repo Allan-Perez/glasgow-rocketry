@@ -4,9 +4,5 @@ position: Ground Infrastructure
 image_path: /assets/img/members/lauren.jpg
 twitter: CloudCannonApp
 blurb: |
-  The Ground Infrastructure Team are developing a launch railsystem that enables 
-  the trajectory of the rocket to beaccurately set and that will also provide 
-  stability during thefirst few seconds of flight. Hello, I'm Lauren, a Mechanical 
-  Engineering student at theUniversity of Glasgow. When I'm not studying, you'll
-  probably find me playing either Squash, Golf or Badminton.
+  Lauren is a fourth year Mechanical Engineering student. When she is not studying, you will probably find her playing either Squash, Golf or Badminton.
 ---
