@@ -6,8 +6,9 @@ ctaButton: Join Us
 ctaActionPopup: jointeam
 ---
 <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
-<ul class="staff">
+<ul class="staff_block"> <!-- This is the block for president, the position has to include a string "President" -->
 	{% for person in site.staff_members %}
+		{% if person.position contains "President" %}
 		<li>
 			<div class="square-image popup-element">
         <img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/>
@@ -18,6 +19,39 @@ ctaActionPopup: jointeam
 			<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name }}</a></div>
 			<div class="position">{{ person.position }}</div>
 		</li>
+		{% endif %}
+	{% endfor %}
+</ul>
+<ul class="staff_block"> <!-- This is the block for tech and not tech lead, the position has to include a string "lead" or "Lead" -->
+{% for person in site.staff_members %}
+	{% if person.position contains "lead" or person.position contains "Lead" %}
+		<li>
+			<div class="square-image popup-element">
+        <img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/>
+        <p class="hidden"> {{ person.name }} </p>
+        <p class="hidden"> {{ person.image_path }} </p>
+        <p class="hidden"> {{ person.blurb  }} </p>
+      </div>
+			<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name }}</a></div>
+			<div class="position">{{ person.position }}</div>
+		</li>
+		{% endif %}
+	{% endfor %}
+</ul>
+<ul class="staff_block"> <!-- This is the block for all the other team leaders, the positions cannot include any of the previous significant strings -->
+	{% for person in site.staff_members %}
+		{% unless person.position contains "lead" or person.position contains "Lead" or person.position contains "President" %}
+			<li>
+				<div class="square-image popup-element">
+	        <img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/>
+	        <p class="hidden"> {{ person.name }} </p>
+	        <p class="hidden"> {{ person.image_path }} </p>
+	        <p class="hidden"> {{ person.blurb  }} </p>
+	      </div>
+				<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name }}</a></div>
+				<div class="position">{{ person.position }}</div>
+			</li>
+		{% endunless %}
 	{% endfor %}
 </ul>
 <script src='/assets/js/infoOnClick.js'></script>

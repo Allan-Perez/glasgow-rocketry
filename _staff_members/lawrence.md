@@ -4,5 +4,5 @@ position: Partnerships
 image_path: /assets/img/members/lawrence.jpg
 twitter: CloudCannonApp
 blurb: |
-  Anastasia is a second year Biology student with a passion for space, who intends on studying astrobiology in the future.
+  Lawrence Wright is a 4th year psychology student with an interest in Industrial psychology, how the application of psychological theory can be used to streamline business practices and efficiency.
 ---
