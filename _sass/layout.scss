@@ -158,8 +158,10 @@ blockquote:before {
 	}
 }
 .logo{
-	width: 150px;
-	height: 150px;
+	min-width: 150px;
+	max-width: 500px;
+	min-height: 150px;
+	max-height: 500px;
 	margin: 25px  auto;
 	position: relative;
   display: table-cell;
