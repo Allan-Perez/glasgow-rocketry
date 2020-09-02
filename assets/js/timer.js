@@ -3,7 +3,7 @@ layout: none
 ---
 var launch = {{ site.data.launch | jsonify }}[0];
 // Set elements that will be used 
-var launch_title = document.createElement("h1");
+var launch_title = document.createElement("h2");
 var launch_cta   = document.createElement("div");
 var launch_cta_a = document.createElement("a");
 launch_cta_a.href = launch["link"];
