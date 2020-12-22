@@ -1,3 +1,7 @@
+- name: Projects
+  link: /projects/
+  new_window: false
+  highlight: false
 - name: Sponsors
   link: /sponsors/
   new_window: false
