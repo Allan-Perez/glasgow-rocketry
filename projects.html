@@ -1,0 +1,16 @@
+---
+title: Projects
+description: Discover how we are encouraging the future generations to pursue a career in the space industry.
+headingImgUrl: /assets/img/amongstars.jpg
+ctaText: Do you have an **outreach project**?
+ctaButton: Let Us Know
+ctaActionPopup: outreach
+---
+
+<div class="text-container">
+  <h2>{{ paginator }} </h2>
+	<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Post</a></p>
+	<ul class="blog-posts">
+		{% include list-posts.html posts=site.categories.projects%}
+	</ul>
+</div>
