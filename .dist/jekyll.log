@@ -1,0 +1,403 @@
+Configuration file: /Users/allanperez/Clients/glasgow-rocketry/_config.yml
+            Source: /Users/allanperez/Clients/glasgow-rocketry
+       Destination: /Users/allanperez/Clients/glasgow-rocketry/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+[31m             Error: YAML Exception reading /Users/allanperez/Clients/glasgow-rocketry/_staff_members/shreyas.md: (<unknown>): could not find expected ':' while scanning a simple key at line 7 column 1[0m
+[31m             Error: YAML Exception reading /Users/allanperez/Clients/glasgow-rocketry/_staff_members/elena.md: (<unknown>): could not find expected ':' while scanning a simple key at line 7 column 1[0m
+[31m             Error: YAML Exception reading /Users/allanperez/Clients/glasgow-rocketry/_staff_members/molly.md: (<unknown>): could not find expected ':' while scanning a simple key at line 7 column 1[0m
+       Jekyll Feed: Generating feed for posts
+                    done in 0.487 seconds.
+ Auto-regeneration: enabled for '/Users/allanperez/Clients/glasgow-rocketry'
+    Server address: http://127.0.0.1:4000
+  Server running... press ctrl-c to stop.
+[2021-01-23 23:56:26] ERROR `/assets/img/members/lawrence.jpg' not found.
+[2021-01-23 23:56:26] ERROR `/assets/img/members/lawrence.jpg' not found.
+[2021-01-23 23:56:32] ERROR `/assets/img/members/lawrence.jpg' not found.
+      Regenerating: 1 file(s) changed at 2021-01-23 23:58:13
+                    assets/img/members/lawrence.jpg
+[31m             Error: YAML Exception reading /Users/allanperez/Clients/glasgow-rocketry/_staff_members/shreyas.md: (<unknown>): could not find expected ':' while scanning a simple key at line 7 column 1[0m
+[31m             Error: YAML Exception reading /Users/allanperez/Clients/glasgow-rocketry/_staff_members/elena.md: (<unknown>): could not find expected ':' while scanning a simple key at line 7 column 1[0m
+[31m             Error: YAML Exception reading /Users/allanperez/Clients/glasgow-rocketry/_staff_members/molly.md: (<unknown>): could not find expected ':' while scanning a simple key at line 7 column 1[0m
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.433458 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:01:29
+                    _staff_members/molly.md
+[31m             Error: YAML Exception reading /Users/allanperez/Clients/glasgow-rocketry/_staff_members/shreyas.md: (<unknown>): could not find expected ':' while scanning a simple key at line 7 column 1[0m
+[31m             Error: YAML Exception reading /Users/allanperez/Clients/glasgow-rocketry/_staff_members/elena.md: (<unknown>): could not find expected ':' while scanning a simple key at line 7 column 1[0m
+[31m             Error: YAML Exception reading /Users/allanperez/Clients/glasgow-rocketry/_staff_members/molly.md: (<unknown>): could not find expected ':' while scanning a simple key at line 6 column 1[0m
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.331486 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:01:45
+                    _staff_members/molly.md
+[31m             Error: YAML Exception reading /Users/allanperez/Clients/glasgow-rocketry/_staff_members/shreyas.md: (<unknown>): could not find expected ':' while scanning a simple key at line 7 column 1[0m
+[31m             Error: YAML Exception reading /Users/allanperez/Clients/glasgow-rocketry/_staff_members/elena.md: (<unknown>): could not find expected ':' while scanning a simple key at line 7 column 1[0m
+[31m             Error: YAML Exception reading /Users/allanperez/Clients/glasgow-rocketry/_staff_members/molly.md: (<unknown>): could not find expected ':' while scanning a simple key at line 6 column 1[0m
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.300073 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:02:13
+                    _staff_members/molly.md
+[31m             Error: YAML Exception reading /Users/allanperez/Clients/glasgow-rocketry/_staff_members/shreyas.md: (<unknown>): could not find expected ':' while scanning a simple key at line 7 column 1[0m
+[31m             Error: YAML Exception reading /Users/allanperez/Clients/glasgow-rocketry/_staff_members/elena.md: (<unknown>): could not find expected ':' while scanning a simple key at line 7 column 1[0m
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.287362 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:02:33
+                    _staff_members/shreyas.md
+[31m             Error: YAML Exception reading /Users/allanperez/Clients/glasgow-rocketry/_staff_members/elena.md: (<unknown>): could not find expected ':' while scanning a simple key at line 7 column 1[0m
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.267344 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:03:00
+                    _staff_members/shreyas.md
+[31m             Error: YAML Exception reading /Users/allanperez/Clients/glasgow-rocketry/_staff_members/elena.md: (<unknown>): could not find expected ':' while scanning a simple key at line 7 column 1[0m
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.284301 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:03:28
+                    _staff_members/elena.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.268752 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:04:09
+                    _staff_members/shreyas.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.327307 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:04:17
+                    _staff_members/shreyas.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.27626 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:04:18
+                    _staff_members/henrik.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.309874 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:04:20
+                    _staff_members/molly.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.326468 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:06:09
+                    assets/img/sponsors/skyrora.svg
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.360586 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:06:38
+                    assets/img/sponsors/stratonauts.svg
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.319215 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:06:52
+                    assets/img/sponsors/stratonauts.svg
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.344737 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:07:08
+                    assets/img/sponsors/aspire.png
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.341594 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:07:26
+                    assets/img/sponsors/stratonauts.png
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.271352 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:07:42
+                    assets/img/sponsors/msc.png
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.361539 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:08:39
+                    _sponsors_members/skyrora.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.248705 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:10:11
+                    _sponsors_members/skyrora.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.353902 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:10:24
+                    _sponsors_members/stratonauts.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.301441 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:10:57
+                    _sponsors_members/rsc.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.322444 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:11:07
+                    _sponsors_members/msc.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.294691 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:11:30
+                    _sponsors_members/msc.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.348757 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:12:25
+                    _sponsors_members/msc.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.498414 seconds.
+                    
+[2021-01-24 00:13:58] ERROR `/favicon.ico' not found.
+      Regenerating: 1 file(s) changed at 2021-01-24 00:14:53
+                    assets/img/sponsors/skyrora.svg
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.288727 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:16:27
+                    .dist/jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.384462 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-01-24 00:18:44
+                    _posts/projects/2021-01-25-saltire-1.md
+                    _posts/special/2020-07-21-saltire-1.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.271045 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:19:05
+                    _posts/projects/2020-12-12-saltire1.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.259815 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:19:42
+                    _posts/projects/2021-01-25-saltire-1.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.425682 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:19:44
+                    _posts/projects/2021-01-25-saltire-1.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.224637 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:20:05
+                    _posts/projects/2021-01-25-saltire-1.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.307731 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:20:11
+                    .dist/jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.308316 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:20:23
+                    .dist/jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.247691 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:20:26
+                    .dist/jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.284032 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:20:26
+                    .dist/jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.306317 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-01-24 00:20:30
+                    .dist/jekyll.log
+                    projects.html
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.323602 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:20:31
+                    .dist/jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.244316 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:20:35
+                    .dist/jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.280355 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:20:44
+                    _posts/projects/2021-01-25-saltire-1.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.282097 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:21:43
+                    .dist/jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.452581 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:21:57
+                    .dist/jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.257945 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:22:41
+                    .dist/jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.431864 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:23:01
+                    _data/launch.yml
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.506776 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:23:09
+                    .dist/jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.438057 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:23:09
+                    .dist/jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.287008 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:24:48
+                    _posts/projects/2021-01-25-saltire-1.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.339759 seconds.
+                    
+[2021-01-24 00:24:50] ERROR `/assets/img/projects/saltire-1-cad.jpg' not found.
+[2021-01-24 00:24:50] ERROR `/assets/img/projects/saltire-1-cad.jpg' not found.
+[2021-01-24 00:24:52] ERROR `/assets/img/projects/saltire-1-cad.jpg' not found.
+[2021-01-24 00:24:52] ERROR `/assets/img/projects/saltire-1-cad.jpg' not found.
+      Regenerating: 1 file(s) changed at 2021-01-24 00:25:44
+                    _posts/projects/2021-01-25-saltire-1.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.909247 seconds.
+                    
+[2021-01-24 00:25:47] ERROR `/assets/img/projects/saltire-1-cad.jpg' not found.
+[2021-01-24 00:25:47] ERROR `/assets/img/projects/saltire-1-cad.jpg' not found.
+      Regenerating: 1 file(s) changed at 2021-01-24 00:26:06
+                    _posts/projects/2021-01-25-saltire-1.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.316938 seconds.
+                    
+[2021-01-24 00:26:09] ERROR `/assets/img/projects/saltire-1-cad.jpg' not found.
+[2021-01-24 00:26:09] ERROR `/assets/img/projects/saltire-1-cad.jpg' not found.
+      Regenerating: 1 file(s) changed at 2021-01-24 00:26:28
+                    .dist/jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.314719 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-01-24 00:26:55
+                    assets/img/projects/likhit_saltire.jpg
+                    assets/img/likhit_saltire.jpg
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.309206 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:27:54
+                    assets/img/projects/saltire-1-cad.jpg
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.335474 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:29:06
+                    _posts/projects/2021-01-25-saltire-1.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.416513 seconds.
+                    
+[2021-01-24 00:29:09] ERROR `/assets/img/projects/saltire-1-cad.jpg = 250px' not found.
+[2021-01-24 00:29:09] ERROR `/assets/img/projects/saltire-1-cad.jpg = 250px' not found.
+      Regenerating: 1 file(s) changed at 2021-01-24 00:29:19
+                    _posts/projects/2021-01-25-saltire-1.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.271192 seconds.
+                    
+[2021-01-24 00:29:22] ERROR `/assets/img/projects/saltire-1-cad.jpg =250px' not found.
+[2021-01-24 00:29:22] ERROR `/assets/img/projects/saltire-1-cad.jpg =250px' not found.
+[2021-01-24 00:29:23] ERROR `/assets/img/projects/saltire-1-cad.jpg =250px' not found.
+[2021-01-24 00:29:23] ERROR `/assets/img/projects/saltire-1-cad.jpg =250px' not found.
+[2021-01-24 00:29:23] ERROR `/assets/img/projects/saltire-1-cad.jpg =250px' not found.
+[2021-01-24 00:29:23] ERROR `/assets/img/projects/saltire-1-cad.jpg =250px' not found.
+[2021-01-24 00:29:24] ERROR `/assets/img/projects/saltire-1-cad.jpg =250px' not found.
+[2021-01-24 00:29:24] ERROR `/assets/img/projects/saltire-1-cad.jpg =250px' not found.
+      Regenerating: 1 file(s) changed at 2021-01-24 00:29:39
+                    _posts/projects/2021-01-25-saltire-1.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.26682 seconds.
+                    
+[2021-01-24 00:29:42] ERROR `/assets/img/projects/saltire-1-cad.jpg =250x' not found.
+[2021-01-24 00:29:42] ERROR `/assets/img/projects/saltire-1-cad.jpg =250x' not found.
+[2021-01-24 00:29:43] ERROR `/assets/img/projects/saltire-1-cad.jpg =250x' not found.
+[2021-01-24 00:29:43] ERROR `/assets/img/projects/saltire-1-cad.jpg =250x' not found.
+[2021-01-24 00:29:44] ERROR `/assets/img/projects/saltire-1-cad.jpg =250x' not found.
+[2021-01-24 00:29:44] ERROR `/assets/img/projects/saltire-1-cad.jpg =250x' not found.
+[2021-01-24 00:29:44] ERROR `/assets/img/projects/saltire-1-cad.jpg =250x' not found.
+[2021-01-24 00:29:45] ERROR `/assets/img/projects/saltire-1-cad.jpg =250x' not found.
+[2021-01-24 00:29:45] ERROR `/assets/img/projects/saltire-1-cad.jpg =250x' not found.
+[2021-01-24 00:29:45] ERROR `/assets/img/projects/saltire-1-cad.jpg =250x' not found.
+      Regenerating: 1 file(s) changed at 2021-01-24 00:30:31
+                    _posts/projects/2021-01-25-saltire-1.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.28926 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:31:28
+                    _posts/projects/2021-01-25-saltire-1.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.322249 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:31:38
+                    _posts/projects/2021-01-25-saltire-1.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.278022 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:33:33
+                    _posts/projects/2021-01-25-saltire-1.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.436955 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:35:45
+                    _posts/projects/2021-01-25-saltire-1.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.314916 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:37:00
+                    _sass/elements.scss
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.299809 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:37:11
+                    _posts/projects/2021-01-25-saltire-1.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.274259 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:37:57
+                    _sass/elements.scss
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.400821 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:38:15
+                    _sass/elements.scss
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.721583 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:38:20
+                    .dist/jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.376979 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:38:20
+                    .dist/jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.304791 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-01-24 00:39:44
+                    .dist/jekyll.log
+                    terms.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.401214 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2021-01-24 00:48:50
+                    .dist/jekyll.log
+                    terms.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.767246 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2021-01-24 00:48:50
+                    .dist/jekyll.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.444305 seconds.
+                    

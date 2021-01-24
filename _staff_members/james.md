@@ -1,6 +1,6 @@
 ---
 name: James Balharrie
-position: Avionics and Recovery
+position: Flight
 image_path: /assets/img/members/james.jpg
 twitter: CloudCannonApp
 blurb: |

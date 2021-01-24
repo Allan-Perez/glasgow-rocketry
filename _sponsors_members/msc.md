@@ -1,7 +1,7 @@
 ---
 name: MSC (TBD)
 join_date: 2020
-image_path: ../assets/img/sponsors/thyssenkrup.svg
-website: https://www.thyssenkrupp.com/en/
+image_path: ../assets/img/sponsors/msc.png
+website: https://www.mscsoftware.com/
 blurb: Lorem ipsum sit amet.
 ---
